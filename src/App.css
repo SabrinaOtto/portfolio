@@ -1,0 +1,268 @@
+/* Professional Light Theme Styles */
+.professional-light {
+       font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+       line-height: 1.6;
+     }
+     
+     /* Header Styles */
+     .professional-header {
+       background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+       border-bottom: 1px solid #e2e8f0;
+     }
+     
+     .professional-logo {
+       background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+       box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+     }
+     
+     .professional-name {
+       color: #1e293b;
+       font-weight: 700;
+       font-size: 1.5rem;
+     }
+     
+     .professional-title {
+       color: #2563eb;
+       font-weight: 600;
+       font-size: 0.875rem;
+     }
+     
+     /* Navigation */
+     .professional-nav-link {
+       background-color: #eff6ff;
+       color: #2563eb;
+       font-weight: 500;
+       border: 1px solid #dbeafe;
+       transition: all 0.3s ease;
+     }
+     
+     .professional-nav-link:hover {
+       background-color: #dbeafe;
+       transform: translateY(-1px);
+       box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
+     }
+     
+     .professional-cta-button {
+       background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+       color: white;
+       font-weight: 600;
+       box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4);
+       transition: all 0.3s ease;
+     }
+     
+     .professional-cta-button:hover {
+       transform: translateY(-2px);
+       box-shadow: 0 6px 20px rgba(37, 99, 235, 0.5);
+     }
+     
+     /* Hero Section */
+     .professional-hero {
+       background: linear-gradient(135deg, #ffffff 0%, #f8fafc 50%, #f1f5f9 100%);
+     }
+     
+     .professional-tagline {
+       color: #2563eb;
+       font-weight: 700;
+       letter-spacing: 0.1em;
+       text-transform: uppercase;
+     }
+     
+     .professional-headline {
+       color: #1e293b;
+       font-weight: 800;
+       line-height: 1.1;
+     }
+     
+     .professional-gradient-text {
+       background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       background-clip: text;
+     }
+     
+     .professional-description {
+       color: #475569;
+       font-size: 1.125rem;
+       line-height: 1.7;
+     }
+     
+     /* Cards */
+     .professional-card {
+       background: rgba(255, 255, 255, 0.95);
+       backdrop-filter: blur(10px);
+       border: 1px solid #e2e8f0;
+       box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+       transition: all 0.3s ease;
+     }
+     
+     .professional-card:hover {
+       transform: translateY(-5px);
+       box-shadow: 0 8px 35px rgba(0, 0, 0, 0.15);
+       border-color: #c7d2fe;
+     }
+     
+     .professional-feature-card {
+       background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%);
+       border: 1px solid #dbeafe;
+     }
+     
+     /* Service Cards */
+     .professional-service-card {
+       background: linear-gradient(135deg, #ffffff 0%, #fafbff 100%);
+       border: 1px solid #e2e8f0;
+       transition: all 0.3s ease;
+     }
+     
+     .professional-service-card:hover {
+       transform: translateY(-3px);
+       box-shadow: 0 12px 40px rgba(37, 99, 235, 0.15);
+       border-color: #2563eb;
+     }
+     
+     /* Tech Tags */
+     .professional-tech-tag {
+       background-color: #eff6ff;
+       color: #2563eb;
+       font-weight: 500;
+       border: 1px solid #dbeafe;
+     }
+     
+     /* Buttons */
+     .professional-primary-btn {
+       background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+       color: white;
+       font-weight: 600;
+       box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+       transition: all 0.3s ease;
+     }
+     
+     .professional-primary-btn:hover {
+       transform: translateY(-2px);
+       box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+     }
+     
+     .professional-secondary-btn {
+       background: transparent;
+       color: #2563eb;
+       border: 2px solid #2563eb;
+       font-weight: 600;
+       transition: all 0.3s ease;
+     }
+     
+     .professional-secondary-btn:hover {
+       background-color: #eff6ff;
+       transform: translateY(-2px);
+       box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+     }
+     
+     /* Form Elements */
+     .professional-input {
+       background-color: #ffffff;
+       border: 1px solid #cbd5e1;
+       color: #1e293b;
+       transition: all 0.3s ease;
+     }
+     
+     .professional-input:focus {
+       border-color: #2563eb;
+       box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+       outline: none;
+     }
+     
+     .professional-label {
+       color: #374151;
+       font-weight: 600;
+     }
+     
+     /* Footer */
+     .professional-footer {
+       border-top: 1px solid #e2e8f0;
+       background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+     }
+     
+     /* Utility Classes */
+     .professional-text-primary {
+       color: #000000;
+     }
+     
+     .professional-text-secondary {
+       color: #7c3aed;
+     }
+     
+     .professional-text-accent {
+       color: #dc2626;
+     }
+     
+     .professional-bg-primary {
+       background-color: #eff6ff;
+     }
+     
+     .professional-bg-secondary {
+       background-color: #f8fafc;
+     }
+     
+     /* Section Spacing */
+     .professional-section {
+       margin: 5rem 0;
+     }
+     
+     .professional-section-title {
+       color: #1e293b;
+       font-weight: 800;
+       font-size: 2.25rem;
+       margin-bottom: 2rem;
+     }
+     
+     /* Links */
+     .professional-link {
+       color: #2563eb;
+       font-weight: 500;
+       text-decoration: none;
+       transition: color 0.3s ease;
+     }
+     
+     .professional-link:hover {
+       color: #1d4ed8;
+       text-decoration: underline;
+     }
+     
+     /* Badges and Status */
+     .professional-badge {
+       background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+       color: white;
+       font-weight: 600;
+       font-size: 0.75rem;
+       padding: 0.25rem 0.75rem;
+       border-radius: 9999px;
+     }
+     
+     /* Animation Classes */
+     .professional-fade-in {
+       animation: professionalFadeIn 0.6s ease-out;
+     }
+     
+     @keyframes professionalFadeIn {
+       from {
+         opacity: 0;
+         transform: translateY(20px);
+       }
+       to {
+         opacity: 1;
+         transform: translateY(0);
+       }
+     }
+     
+     .professional-scale-in {
+       animation: professionalScaleIn 0.5s ease-out;
+     }
+     
+     @keyframes professionalScaleIn {
+       from {
+         opacity: 0;
+         transform: scale(0.9);
+       }
+       to {
+         opacity: 1;
+         transform: scale(1);
+       }
+     }
